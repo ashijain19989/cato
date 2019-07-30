@@ -1,0 +1,359 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+    background-color: rgba(189, 187, 187, 0.397);
+}
+
+
+#full{
+    
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#full1{
+    height:50%;
+    width:100%;
+    
+}
+
+#full2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50%;
+    width:100%;
+    background-color:rgba(65, 185, 101, 0.733);
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:30%;
+    width:100%;
+    padding:10px 80px;
+    background-color: white;
+    color:rgba(65, 185, 101, 0.733);
+}
+#content{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+    width:50%;
+    color:rgba(65, 185, 101, 0.733);
+    font-weight: 500;
+}
+#ll{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#icon{
+    
+    font-size: 20px;
+    color:rgb(88, 189, 130);
+}
+
+#image{
+    height:60%;
+    width:40%;
+    margin:30px auto;
+    background-image: url(capture.PNG);
+    background-size: cover;
+    background-position: center;
+}
+
+#info{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:20px 30px;
+    text-align: center;
+    height:70%;
+    width:50%;
+    
+    
+}
+#info h1{
+color:white;
+font-family: 'Merienda', cursive;
+font-weight: 100;
+}
+
+#info p{
+    font-size: 14px;
+    color:white;
+}
+#info button{
+    margin:0 auto;
+    text-transform: capitalize;
+    font-size: 12px;
+     font-weight: 600;
+    border:none;
+    border:2px solid rgb(69, 201, 98);
+     border-radius: 4px;
+    height:28px;
+    width:100px;
+    
+    background-color: white;
+    color:rgb(26, 114, 55);
+
+    
+}
+
+
+#gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width:100%;
+    background-color: white;
+}
+#adopt{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    align-items: flex-start;
+    height: 60%;
+    width:20%;
+    
+    
+}
+
+#adopt h1{
+    margin-left: 18px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    font-family: 'Merienda', cursive;
+    font-size: 40px;
+    font-weight: 500;
+    color:rgba(65, 185, 101, 0.733);
+    font-family: 'Merienda', cursive;
+}
+#adopt h2{
+    
+    text-transform: capitalize;
+    margin-top: 5px;
+    font-family: 'Merienda', cursive;
+    font-size: 40px;
+    font-weight: 500;
+    color:rgba(65, 185, 101, 0.733);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#container{
+    
+    height:90%;
+    width:85%;
+
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:50%;
+    background-color: white;
+}
+.cats{
+    height:90%;
+    width:22%;
+    
+    background-size: cover;
+    background-position: center;
+}
+
+#c1{
+    background-image: url(cat1.jpg);
+}
+
+
+#c2{
+    background-image: url(cat2.jpg);
+}
+#c3{
+    background-image: url(cat3.jpg);
+    
+}
+#c4{
+    background-image: url(cat4.jpg);
+}
+#c5{
+    background-image: url(cat5.jpg);
+}
+#c6{
+    background-image: url(cat6.jpg);
+    background-position: top;
+}
+#c7{
+    background-image: url(cat7.jpg);
+    background-position: top;
+}
+#c8{
+    background-image: url(cat8.jpg);
+}
+
+
+
+#about{
+    height:50%;
+    width:100%;
+    background-color:rgba(65, 185, 101, 0.733);
+    background-image: url(multiple.png);
+
+}
+#overlay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+    width:100%;
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.425),rgba(39, 155, 39, 0.74))
+}
+
+#mycats{
+    padding:10px 50px;
+    
+    height:80%;
+    width:50%;
+}
+#mycats h1{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 40px;
+color:white;
+font-family: 'Open Sans Condensed', sans-serif;
+text-align: center;
+
+}
+
+
+#mycats p{
+    margin-top: 20px;
+color:white;
+font-family: 'Open Sans Condensed', sans-serif;
+text-align: center;
+font-size: 15px;
+text-align: left;
+line-height: 25px;
+
+}
+#mycats button{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+    padding:2px 5px;
+    font-weight: 500;
+    color:rgb(49, 151, 49);
+    border:none;
+    border:2px solid rgb(28, 116, 28);
+    border-radius: 5px;
+    background-color: white;
+    
+}
+#catpic{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height:100%;
+    width:45%;
+    background-image: url(blackcato.jpg);
+    background-size: cover;
+}
+#write{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 10px 30px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color:white;
+    font-family: 'Merienda', cursive;
+    height:60%;
+    width:40%;
+    
+}
+#services{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height:80%;
+    width:100%;
+    
+}
+#services h1{
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+
+    height:10%;
+    width:100%;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+}
+#trustie{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:80%;
+    width:100%;
+
+}
+
+
+.person{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px 20px;
+    height:70%;
+    width:25%;
+    background-color: rgba(184, 179, 179, 0.767);
+}
+
+
+.imagess{
+    margin-top: 10px;
+    height:50%;
+    width:100%;
+    
+    background-size: cover;
+}
+.person h2{
+    margin-top: 10px;
+}
+.person p{
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#i1{
+    background-image: url(catplay.jpg);
+}
+
+#i2{
+    background-image: url(medicati.jpg);
+}
+
+#i3{
+    background-image: url(champ.jpg);
+    background-position: bottom;
+}
+
+
+
+
+
+
